@@ -1,6 +1,6 @@
 # B2B SaaS Sales Performance & Commercial Analytics
 
-End-to-end commercial analytics project on a 9,994-row / 4-year B2B SaaS transactional dataset
+End-to-end commercial analytics project on a 9,994-row, 4-year B2B SaaS transactional dataset
 (48 countries, 3 regions, 3 customer segments, 14 products). Built to demonstrate the analytics,
 SQL, and Excel automation skill set required for a **B2B Sales Products & Programs / Sales
 Operations** function: pricing governance, CRM-ready reporting, and commercial decision support.
@@ -54,12 +54,11 @@ window-function analytics (rolling averages, MoM growth, rank-per-region), a pur
 segmentation using `NTILE`, a Pareto/concentration query, a cohort-retention query, and two views
 (`vw_sales_enriched`, `vw_customer_rfm`) intended as the connection point for Tableau/Power BI.
 
-## Excel Dashboard (VBA)
+## Excel Dashboard 
 
-`vba/Dashboard_Builder.bas` is a fully self-contained macro that builds an executive dashboard from
+Excel Dashboard is a fully self-contained macro that builds an executive dashboard from
 a `Data` sheet/table in any workbook: KPI cards, a monthly revenue trend chart, region/segment/
-product charts, and cross-filtering slicers, all built from static formula ranges (not live
-PivotCharts) so custom colors and formatting survive slicer filtering. Import the module and run
+product charts, and cross-filtering slicers, all built from static formula ranges so custom colors and formatting survive slicer filtering. Import the module and run
 `BuildDashboard`.
 
 ## Key Findings (see notebook Section 8 for full detail)
