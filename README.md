@@ -21,20 +21,20 @@ Operations** function: pricing governance, CRM-ready reporting, and commercial d
 
 ## What's in the Notebook
 
-1. **Data Quality Assessment** — nulls, duplicates, type/range validation.
-2. **Data Cleaning & Feature Engineering** — dates, profit margin, discount bands, RFM inputs.
-3. **Exploratory Data Analysis** — revenue/profit trend, region × segment breakdown, product &
+1. **Data Quality Assessment** : nulls, duplicates, type/range validation.
+2. **Data Cleaning & Feature Engineering** : dates, profit margin, discount bands, RFM inputs.
+3. **Exploratory Data Analysis** : revenue/profit trend, region × segment breakdown, product &
    industry performance, order-value distribution, seasonality heatmap, correlation matrix.
-4. **Discount & Margin Analysis** — quantifies (with a Welch's t-test) how discount depth erodes
+4. **Discount & Margin Analysis** : quantifies (with a Welch's t-test) how discount depth erodes
    profitability, directly supporting a discount-governance policy recommendation.
-5. **Pareto / Account Concentration** — validates the 80/20 revenue concentration across customers
+5. **Pareto / Account Concentration** : validates the 80/20 revenue concentration across customers
    and products.
-6. **Customer Segmentation** — rule-based RFM scoring plus K-Means clustering (with elbow-method
+6. **Customer Segmentation** : rule-based RFM scoring plus K-Means clustering (with elbow-method
    validation) to derive data-driven account tiers.
-7. **Time-Series Forecasting** — two independently implemented models (seasonal regression and
+7. **Time-Series Forecasting** : two independently implemented models (seasonal regression and
    Holt's linear exponential smoothing), validated on a 6-month holdout, used to forecast the next
    6 months of revenue.
-8. **Executive Summary** — insight → recommendation table connecting each finding to a concrete
+8. **Executive Summary** : insight → recommendation table connecting each finding to a concrete
    commercial/pricing action.
 
 ## Running the Notebook
